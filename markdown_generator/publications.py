@@ -63,7 +63,7 @@ def html_escape(text):
 
 import os
 for row, item in publications.iterrows():
-    
+    # MODIFY THIS FILE
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(item.pub_date) + "-" + item.url_slug
     year = item.pub_date[:4]
@@ -85,6 +85,9 @@ for row, item in publications.iterrows():
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
+
+    if len(str(item.code_url)) > 5:
+        md += "\ncodeurl: '" + item.code_url + "'"
     
     md += "\ncitation: '" + html_escape(item.citation) + "'"
     
@@ -92,13 +95,13 @@ for row, item in publications.iterrows():
     
     ## Markdown description for individual page
     
-    if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
+    # if len(str(item.paper_url)) > 5:
+    #     md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
         
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"
         
-    md += "\nRecommended citation: " + item.citation
+    md += item.citation
     
     md_filename = os.path.basename(md_filename)
        
