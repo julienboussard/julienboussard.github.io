@@ -8,6 +8,6 @@ redirect_from:
   - /cv.html
 ---
 
-<!-- {% include base_path %} -->
+{% include base_path %}
 
-<embed src="https://julienboussard.github.io/images/CV_JulienBoussard.pdf" width="800px" height="2100px" /> 
+<embed src="/images/CV_JulienBoussard.pdf" width="800px" height="2100px" /> 
