@@ -10,4 +10,4 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
-<embed src="/images/CV_JulienBoussard.pdf" width="800px" height="2100px" /> 
+<embed src="https://julienboussard.github.io/images/CV_JulienBoussard.pdf" width="800px" height="2100px" /> 
