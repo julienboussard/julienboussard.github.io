@@ -7,6 +7,6 @@ redirect_from:
   - /cv/
 ---
 
-<!-- {% include base_path %} -->
+{% include base_path %}
 
 <embed src="../images/CV_JulienBoussard.pdf" width="800px" height="2100px" /> 
