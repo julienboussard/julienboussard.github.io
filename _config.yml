@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Julien Boussard"
+title                    : "About me"
 title_separator          : "-"
 name                     : &name "Julien Boussard"
 description              : &description "Personal description"
