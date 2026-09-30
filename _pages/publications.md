@@ -14,6 +14,7 @@ Here is a list of selected publications. You can find the full list of publicati
 {% assign theses = site.publications | where: "pubtype", "thesis" | reverse %}
 
 ## Conferences and Journals
+{: .pub-section}
 
 {% for post in papers %}
   {% include publication-card.html %}
@@ -22,6 +23,7 @@ Here is a list of selected publications. You can find the full list of publicati
 ---
 
 ## PhD Thesis
+{: .pub-section}
 
 {% for post in theses %}
   {% include publication-card.html %}
