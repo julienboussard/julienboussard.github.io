@@ -5,12 +5,35 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<b>Conference Oral Presentations</b>
 
-{% endif %}
+<ul>
+  <li><i>Best practices and advice for using AI in research and writing</i>, Goldschmidt 2026 Conference</li>
+  <li><a href="https://meetingorganizer.copernicus.org/EGU25/EGU25-13307.html" target="_blank" rel="noopener"><i>Causal climate emulation</i></a>, "Machine Learning for Climate Science" Session, EGU General Assembly 2025 (Highlight)</li>
+  <li><i>Predicting Subjective Sleep Quality Using Recurrent Neural Networks</i>, 2019 IEEE Signal Processing in Medicine and Biology Symposium</li>
+</ul>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<b>Conference &amp; Workshop Posters</b>
+
+<ul>
+  <li><a href="https://meetingorganizer.copernicus.org/EGU26/EGU26-4913.html" target="_blank" rel="noopener"><i>An AI-driven approach to enhancing wildfire representation and climate feedbacks in the UVic-ESCM v2.10</i></a>, "Spatial and Temporal Dynamics of Wildfires: Models, Theory, and Reality" Session, EGU General Assembly 2026</li>
+  <li><a href="https://ui.adsabs.harvard.edu/abs/2024AGUFMGC11H0033H/abstract" target="_blank" rel="noopener"><i>Learning Causal Representations of Climate Model Data</i></a>, "Advances in Emulating Earth System Models" Session, AGU General Assembly 2024</li>
+  <li><i>Brain-wide Electrophysiological Atlas</i>, Cosyne 2024</li>
+  <li><a href="https://arxiv.org/abs/2312.02858" target="_blank" rel="noopener"><i>Towards Causal Representations of Climate Model Data</i></a>, "Tackling Climate Change with Machine Learning" Workshop, NeurIPS 2023</li>
+  <li><i>Density-based Neural Decoding using Spike Localization for Neuropixels Recordings</i>, Cosyne 2023</li>
+  <li><i>Robust multiband drift estimation in electrophysiology data</i>, Cosyne 2023</li>
+  <li><i>Decentralized motion inference and registration of Neuropixels data</i>, Cosyne 2021</li>
+</ul>
+
+<b>Invited Talks</b>
+
+<ul>
+  <li><i>Causal Climate Emulation</i>, AI in Climate and Environmental Sciences Group Presentation, KIT, 2026</li>
+  <li><i>Causal Climate Emulation</i>, ARCHES Group Presentation, INRIA Paris, 2025</li>
+  <li><i>Learning Causal Representations of Climate Model Data</i>, LEAP Machine Learning Journal Club, Columbia University, 2024</li>
+  <li><i>DARTsort: A modular drift tracking spike sorter for high-density multi-electrode probes</i>, Harris Lab, Janelia, 2023</li>
+  <li><i>DARTsort: A modular drift tracking spike sorter for high-density multi-electrode probes</i>, Neurotheory Seminar, Center for Theoretical Neuroscience, Columbia University, 2023</li>
+  <li><i>Three-dimensional spike localization and improved motion correction for Neuropixels recordings</i>, Neurotheory Seminar, Center for Theoretical Neuroscience, Columbia University, 2021</li>
+</ul>
