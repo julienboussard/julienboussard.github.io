@@ -7,4 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<embed src="../images/CV_Julien.pdf" width="800px" height="2100px" /> 
+<meta http-equiv="refresh" content="0; url={{ base_path }}/images/CV_Julien.pdf">
+
+Redirecting to [my CV (PDF)]({{ base_path }}/images/CV_Julien.pdf)...
