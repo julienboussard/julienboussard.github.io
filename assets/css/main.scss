@@ -42,39 +42,33 @@
 
 /* Publications page */
 .pub {
-  margin-bottom: 2em;
-
-  p {
-    margin: 0 0 0.3em;
-  }
+  margin-bottom: 1.5em;
 }
 
-.pub__title {
-  font-weight: bold;
-}
-
-.pub__venue {
-  color: $gray;
-}
-
-.pub__links {
-  margin-top: 0.5em !important;
-}
-
-.page__content a.pub__btn,
-a.pub__btn {
+.archive a.pub-link,
+.page__content a.pub-link {
   display: inline-block;
-  margin: 0 0.4em 0.4em 0;
-  padding: 0.2em 0.8em;
-  font-size: $type-size-6;
-  color: $link-color;
-  border: 1px solid $link-color;
-  border-radius: 4px;
+  padding: 0.3em 0.8em;
+  margin: 0.2em 0.3em 0.2em 0;
+  font-size: 0.6875em;
+  font-weight: 600;
+  line-height: 1.2;
   text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-    color: #fff;
-    background-color: $link-color;
     text-decoration: none;
+    transform: translateY(-1px);
   }
 }
+
+@mixin pub-link-colors($bg, $fg, $border) {
+  &, &:visited { background: $bg; color: $fg; border: 1px solid $border; }
+  &:hover { background: $border; color: $fg; }
+}
+
+.archive a.pub-link--paper,  .page__content a.pub-link--paper  { @include pub-link-colors(#a0d2b2, #1e4029, #7dc196); }
+.archive a.pub-link--code,   .page__content a.pub-link--code   { @include pub-link-colors(#e2eef2, #32626f, #bfdae2); }
+.archive a.pub-link--video,  .page__content a.pub-link--video  { @include pub-link-colors(#fbdedb, #d62c1a, #f5b4ae); }
+.archive a.pub-link--slides, .page__content a.pub-link--slides { @include pub-link-colors(#f8dcc2, #a85913, #f3c195); }
