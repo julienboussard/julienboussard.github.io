@@ -6,5 +6,5 @@ date: 2026-05-01
 venue: "ICASSP, 2026"
 authors: "M. Teng*, J. Boussard*, D. Rolnick, H. Larochelle"
 paperurl: "https://www.arxiv.org/abs/2509.18412"
-codeurl: "#TODO"
+codeurl: "https://github.com/RolnickLab/BioSyllabel"
 ---

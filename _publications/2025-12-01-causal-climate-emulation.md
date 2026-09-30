@@ -6,5 +6,5 @@ date: 2025-12-01
 venue: "NeurIPS, 2025"
 authors: "S. Hickman, I. Trajkovic, J. Kaltenborn, F. Pelletier, A. Archibald, Y. Gurwicz, P. Nowack, D. Rolnick, J. Boussard"
 paperurl: "https://arxiv.org/pdf/2506.09891"
-codeurl: "#TODO"
+codeurl: "https://github.com/RolnickLab/climatem"
 ---
