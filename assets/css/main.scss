@@ -39,3 +39,42 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Publications page */
+.pub {
+  margin-bottom: 2em;
+
+  p {
+    margin: 0 0 0.3em;
+  }
+}
+
+.pub__title {
+  font-weight: bold;
+}
+
+.pub__venue {
+  color: $gray;
+}
+
+.pub__links {
+  margin-top: 0.5em !important;
+}
+
+.page__content a.pub__btn,
+a.pub__btn {
+  display: inline-block;
+  margin: 0 0.4em 0.4em 0;
+  padding: 0.2em 0.8em;
+  font-size: $type-size-6;
+  color: $link-color;
+  border: 1px solid $link-color;
+  border-radius: 4px;
+  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+    background-color: $link-color;
+    text-decoration: none;
+  }
+}
