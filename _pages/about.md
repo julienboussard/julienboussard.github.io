@@ -16,3 +16,5 @@ I completed my Ph.D. in September 2024 at Columbia University, under the supervi
 Before my PhD, I graduated from the Ecole Polytechnique in 2017 before getting a Master’s degree in Statistics at Stanford University, in 2019. During my Master, I was a research assistant under the supervision of [Mykel Kochenderfer](https://mykel.kochenderfer.com){:target="_blank"} where I built a RNN-based model for predicting Sleep Quality from EEG recordings, and did an internship at the Gatsby Computational Neuroscience Unit at UCL under the supervision of [Maneesh Sahani](https://www.gatsby.ucl.ac.uk/~maneesh/){:target="_blank"} where I developed an approach to learn an interpretable model of latent continuous dynamical systems.
 
 I care about reproducible, rigorous and transparent research, and also believe that science should be inclusive and accessible. I'm concerned about the potential harms of AI, and co-organize the [Critical Science Reading Group](https://criticalscience.github.io){:target="_blank"} to better understand the connections between science and society at large.  
+
+Feel free to contact me at julien dot boussard at mila dot quebec.
