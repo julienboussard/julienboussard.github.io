@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Julien Boussard"
-  avatar           : "lab_picture.jpg"
-  bio              : "PhD student in Statistics at Columbia University"
-  location         : "New York, NY"
+  avatar           : "julien-boussard.jpg"
+  bio              : "Postdoctoral researcher at McGill University and Mila - Quebec AI Institute"
+  location         : "Montreal, Canada"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=uVV3Ml0AAAAJ&hl=en&oi=ao"
-  email            : "jb4365@columbia.edu"
+  email            : "julien.boussard@mila.quebec"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/julien-boussard-21b84b108/
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
