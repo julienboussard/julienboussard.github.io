@@ -13,7 +13,7 @@ Here is a list of selected publications. You can find the full list of publicati
 {% assign papers = site.publications | where_exp: "p", "p.pubtype != 'thesis'" | reverse %}
 {% assign theses = site.publications | where: "pubtype", "thesis" | reverse %}
 
-## Conferences and Journals
+# Conferences and Journals
 {: .pub-section}
 
 {% for post in papers %}
@@ -22,7 +22,7 @@ Here is a list of selected publications. You can find the full list of publicati
 
 ---
 
-## PhD Thesis
+# PhD Thesis
 {: .pub-section}
 
 {% for post in theses %}
