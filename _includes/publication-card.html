@@ -1,6 +1,10 @@
+{% assign name_parts = site.author.name | split: " " %}
+{% capture short_name %}{{ name_parts.first | slice: 0 }}. {{ name_parts.last }}{% endcapture %}
 {% capture bold_name %}<strong>{{ site.author.name }}</strong>{% endcapture %}
-{% assign authors = post.authors | replace: site.author.name, bold_name %}
+{% capture bold_short_name %}<strong>{{ short_name }}</strong>{% endcapture %}
+{% assign authors = post.authors | replace: site.author.name, bold_name | replace: short_name, bold_short_name %}
+{% assign year = post.date | date: "%Y" %}
 <p class="pub"><strong>{{ post.title }}</strong><br>
 {{ authors }}<br>
-<em>{{ post.venue }}, {{ post.date | date: "%Y" }}</em><br>
+<em>{{ post.venue }}{% unless post.venue contains year %}, {{ year }}{% endunless %}</em><br>
 {% if post.paperurl %}<a href="{{ post.paperurl }}" class="pub-link pub-link--paper">{{ post.paperlabel | default: "Paper" }}</a> {% endif %}{% if post.codeurl %}<a href="{{ post.codeurl }}" class="pub-link pub-link--code">Code</a> {% endif %}{% if post.videourl %}<a href="{{ post.videourl }}" class="pub-link pub-link--video">Video</a> {% endif %}{% if post.slidesurl %}<a href="{{ post.slidesurl }}" class="pub-link pub-link--slides">Slides</a>{% endif %}</p>
